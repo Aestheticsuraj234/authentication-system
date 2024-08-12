@@ -4,6 +4,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/Home';
 import Login from './components/LoginForm';
 import PrivateLayout from './components/PrivateLayout'; // Import the PrivateLayout component
+import { listenToAuthChanges } from '@/store'; // Import the auth listener
+
+// Initialize auth listener
+listenToAuthChanges();
 
 // Router Configuration
 const router = createBrowserRouter([

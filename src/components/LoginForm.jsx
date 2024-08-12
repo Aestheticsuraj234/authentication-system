@@ -21,7 +21,7 @@ export default function Login() {
 
     if (data) {
       console.log("Data: ", data);
-      router.push("/app"); // Redirect to the app after login
+      router.push("/"); // Redirect to the app after login
     }
   };
 
@@ -36,7 +36,7 @@ export default function Login() {
 
     if (data) {
       console.log("Data: ", data);
-      router.push("/app"); // Redirect to the app after login
+      router.push("/"); // Redirect to the app after login
     }
   };
 
@@ -51,7 +51,7 @@ export default function Login() {
 
     if (data) {
       console.log("Data: ", data);
-      router.push("/app"); // Redirect to the app after login
+      router.push("/"); // Redirect to the app after login
     }
   };
 
